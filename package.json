@@ -1,0 +1,19 @@
+{
+  "name": "wechat-stock-analysis",
+  "version": "0.2.0",
+  "description": "仿写「光影资本Pro」风格的上市公司分析文章，支持 ModelScope AI 配图",
+  "scripts": {
+    "generate": "node scripts/auto_generate.js",
+    "write": "node scripts/write_article.js",
+    "images": "node scripts/generate_images.js",
+    "html": "node scripts/generate_html.js",
+    "publish": "node scripts/publish_to_wechat.js"
+  },
+  "keywords": [
+    "wechat",
+    "stock",
+    "analysis",
+    "guangying-capital"
+  ],
+  "license": "MIT"
+}
